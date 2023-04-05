@@ -1,0 +1,21 @@
+ 
+     
+<table class="table table-info">
+    <tr>
+        <th>ID</th>
+        <th>USER NAME</th>
+        <th>ACCOUNT NUMBER</th>
+        <th>USER Rquests</th>
+        
+        <th>Block the User(user will be Deleted)</th>
+    </tr>
+    <tr *ngFor="let kk of us">
+        <td>{{kk.id}}</td>
+        <td>{{kk.name}}</td>
+        <td>{{kk.accnum}}</td>
+        <td><input type="button"  value="Grant" class="btn-secondary"></td>
+        <td><input type="button"  value="Block" class="btn-secondary"></td>
+
+
+    </tr>
+</table>
